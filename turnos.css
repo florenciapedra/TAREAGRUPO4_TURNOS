@@ -1,8 +1,15 @@
+/* --- HEADER --- */ 
+/* --- BODY --- */  
 body {
+/* Personalicé color de fondo del body y margen */   
     background-color: #FFFDF2;
     margin: 0;
+}    
+/* Se agregó un fondo a todo el body. */
+body {
+    background-image: url("assents/bg.png");
 }
-
+/* Personalicé fuente del título */
 .turnosTitulo__section_div {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
@@ -10,7 +17,7 @@ body {
     letter-spacing: 4px;
     text-align: center;
 }
-
+/* Personalicé fuente, ancho y pading del título medio*/
 .turnosTituloMedio__section_div {
     background-color: #ffe5ef;
     font-family: 'Playfair Display', serif;
@@ -21,7 +28,7 @@ body {
     width: 100%;
     padding: 15px;
 }
-
+/* Personalicé bordes, márgenes y fuente de tabla */
 table {
     border-collapse: collapse;
     border-color: #E1EFDF;
@@ -36,7 +43,7 @@ table {
     font-size: 16px;
     text-align: center;
 }
-
+/* Personalicé bordes y padding de filas y columnas de tabla */
 table, th, td {
     border-collapse: collapse;
     border-color: #E1EFDF;
@@ -45,7 +52,6 @@ table, th, td {
     padding: 1px 10px;
     text-align: center;
 }
-
 table th {
     border-collapse: collapse;
     border-color: #E1EFDF;
@@ -55,7 +61,6 @@ table th {
     height: 40px;
     text-align: center;
 }
-
 table td {
     border-width: 3px;
     padding: 10px 10px;
@@ -68,25 +73,26 @@ tr:nth-of-type(1) > th {
     border-width: 3px;
     text-align: center;
 }
-
+/* Personalicé fondo de columna Disponible */
 .turnosdisponible__section_div {
     background-color:#E1EFDF;
 }
-
+/* Personalicé fondo de columna No Disponible */
 .turnosnodisponible__section_div {
     background-color: #ffe5ef;
 }
-
+/* Personalicé Sección botón */
 .turnosReserva__section_div {
     text-align: center;
 }
-
+/* Personalicé fuente, fondo y bordes de botón Reservar */
 .turnosboton__section_div {
     font-family: 'Roboto', serif;
     font-size: 15px;
     background: #ffe5ef;
     border: 1px solid #eee;
     border-radius: 15px;
+/* Personalicé sombra, ancho y alto de botón Reservar */    
     box-shadow: 3px 3px 3px #eee;
     width: 80px;
     height: 30px;
